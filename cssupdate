@@ -1,0 +1,117 @@
+/* padding around html to not be full width */
+body{
+    padding: 0px 100px 0px 100px;
+}
+h1{
+   
+    font-size: 60px;
+    font-weight: bolder;   
+    font-family: 'montserrat', sans-serif;
+    color: #6c87e6
+    
+​
+}
+
+/* additional padding to indent text */
+p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'montserrat', sans-serif;
+    padding: 0px 100px 0px 100px;
+    color: #1e144b;
+    
+    
+}
+/* drop shadow on main heading of white on blue */
+.header-one {
+    font-size: 175px;
+    font-weight: bolder;   
+    font-family: 'montserrat', sans-serif;
+    text-shadow: 1px 1px 1px #ffffff, 2px 2px 1px #fff;
+    color: #6c87e6;
+
+
+}
+/* smaller italic font than body text */
+li{
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'montserrat', sans-serif;
+    
+    color: #1e144b;
+    
+    
+}
+/* make links, italic, bold and blue */
+a{
+    font-style: italic;
+    font-weight: bolder; 
+    color: #6c87e6
+    
+}
+/* Make profile images a circle and centre in table */
+.profile-img {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    
+  }
+
+  
+  /* The hero image */
+.hero-image {
+  
+  background-image:  url("https://static.wixstatic.com/media/b716cc_80a60ef0c8464171a918e1c61a1c8e8d~mv2.jpg");
+​
+  /* Set a specific height */
+  height: 50%;
+​
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+​
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1e144b;
+}
+/* footer background colour of blue */
+footer{
+    
+    background-color: #6c87e6;
+    
+}
+/* footer font colour of grey and small text */
+.footer-text{
+    color: #1e144b;
+    font-size: small;
+  
+}
+/*images float right*/
+img {
+    float: right;
+    border-radius: 50%;
+  }
+ 
+
+  
+  /* centre text in table*/
+  td {
+    text-align: center;
+  }
+
+
+  td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
